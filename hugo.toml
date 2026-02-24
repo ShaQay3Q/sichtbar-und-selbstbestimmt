@@ -1,5 +1,56 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://sichtbarundselbstbestimmt.org/"
+languageCode = "de"
+defaultContentLanguage = "de"
+title = "Sichtbar & Selbstbestimmt"
 theme = "PaperMod"
 
+[params]
+  description = "Kollektive Auseinandersetzung mit sexualisierter Gewalt"
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+
+[menu]
+  [[menu.main]]
+    name = "Wer wir sind"
+    url = "/wer-wir-sind/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Was wir machen"
+    weight = 2
+    [menu.main.params]
+      hasChildren = true
+
+  [[menu.main]]
+    name = "Podcast"
+    url = "/podcast/"
+    parent = "Was wir machen"
+    weight = 1
+
+  [[menu.main]]
+    name = "Workshops"
+    url = "/workshops/"
+    parent = "Was wir machen"
+    weight = 2
+
+  [[menu.main]]
+    name = "Vorträge"
+    url = "/vortraege/"
+    parent = "Was wir machen"
+    weight = 3
+
+  [[menu.main]]
+    name = "Inhalte & Beiträge"
+    url = "/inhalte/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Links"
+    url = "/links/"
+    weight = 4
+
+  [[menu.main]]
+    name = "Kontakt"
+    url = "/kontakt/"
+    weight = 5
