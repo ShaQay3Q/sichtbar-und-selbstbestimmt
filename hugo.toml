@@ -2,7 +2,7 @@ baseURL = "https://sichtbarundselbstbestimmt.org/"
 languageCode = "de"
 defaultContentLanguage = "de"
 title = "Sichtbar & Selbstbestimmt"
-theme = "PaperMod"
+theme = "ananke"
 
 [params]
   description = "Kollektive Auseinandersetzung mit sexualisierter Gewalt"

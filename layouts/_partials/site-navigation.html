@@ -1,0 +1,75 @@
+<nav class="pv3 ph3 ph4-ns" role="navigation">
+    <div class="flex-l center items-center justify-between">
+        <a href="{{ .Site.Home.RelPermalink }}" class="f3 fw2 hover-white white-90 dib no-underline">
+            {{ with .Site.Params.site_logo }}
+            <img src="{{ urls.RelURL . }}" class="w100 mw5-ns" alt="{{ $.Site.Title }}" />
+            {{ else }}
+            {{ .Site.Title }}
+            {{ end }}
+        </a>
+        <div class="flex-l items-center">
+            {{ partials.Include "i18nlist.html" . }}
+            {{ if .Site.Menus.main }}
+            <ul class="pl0 mr3">
+                {{ range .Site.Menus.main }}
+                {{ if .HasChildren }}
+                <li class="list f5 f4-ns fw4 dib pr3 dropdown-parent">
+                    <a class="hover-white white-90 no-underline" href="javascript:void(0)">
+                        {{ .Name }} ▾
+                    </a>
+                    <ul class="dropdown-menu">
+                        {{ range .Children }}
+                        <li>
+                            <a class="hover-white white-90 no-underline" href="{{ .URL }}">
+                                {{ .Name }}
+                            </a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </li>
+                {{ else }}
+                <li class="list f5 f4-ns fw4 dib pr3">
+                    <a class="hover-white white-90 no-underline" href="{{ .URL }}" title="{{ .Name }}">
+                        {{ .Name }}
+                    </a>
+                </li>
+                {{ end }}
+                {{ end }}
+            </ul>
+            {{ end }}
+            {{ partials.IncludeCached "social/follow.html" . }}
+        </div>
+    </div>
+</nav>
+
+<style>
+    .dropdown-parent {
+        position: relative;
+    }
+
+    .dropdown-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #1a1a1a;
+        min-width: 200px;
+        z-index: 9999;
+        padding: 0.5rem 0;
+        list-style: none;
+        margin: 0;
+    }
+
+    .dropdown-parent:hover .dropdown-menu {
+        display: block;
+    }
+
+    .dropdown-menu li {
+        padding: 0.4rem 1rem;
+    }
+
+    .dropdown-menu li a {
+        white-space: nowrap;
+        display: block;
+    }
+</style>
