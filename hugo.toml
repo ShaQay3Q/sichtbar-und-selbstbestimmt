@@ -9,16 +9,23 @@ theme = "ananke"
   ShowReadingTime = false
   ShowShareButtons = false
   ShowPostNavLinks = true
+  mainSections = ["posts"]
+
 
 [menu]
   [[menu.main]]
-    name = "Wer wir sind"
-    url = "/wer-wir-sind/"
+    name = "Aktuelles"
+    url = "/"
     weight = 1
 
   [[menu.main]]
-    name = "Was wir machen"
+    name = "Wer wir sind"
+    url = "/wer-wir-sind/"
     weight = 2
+
+  [[menu.main]]
+    name = "Was wir machen"
+    weight = 3
     [menu.main.params]
       hasChildren = true
 
@@ -43,14 +50,14 @@ theme = "ananke"
   [[menu.main]]
     name = "Inhalte & Beiträge"
     url = "/inhalte/"
-    weight = 3
+    weight = 4
 
   [[menu.main]]
     name = "Links"
     url = "/links/"
-    weight = 4
+    weight = 5
 
   [[menu.main]]
     name = "Kontakt"
     url = "/kontakt/"
-    weight = 5
+    weight = 6
