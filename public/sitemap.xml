@@ -11,22 +11,25 @@
     <loc>http://localhost:1313/inhalte/</loc>
     <lastmod>2026-02-24T21:43:23+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/kontakt/</loc>
+    <loc>http://localhost:1313/pages/kontakt/</loc>
     <lastmod>2026-02-24T21:43:22+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/links/</loc>
+    <loc>http://localhost:1313/pages/links/</loc>
     <lastmod>2026-02-24T21:43:22+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/podcast/</loc>
+    <loc>http://localhost:1313/pages/</loc>
     <lastmod>2026-02-24T21:43:22+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/vortraege/</loc>
+    <loc>http://localhost:1313/projects/</loc>
     <lastmod>2026-02-24T21:43:22+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/wer-wir-sind/</loc>
+    <loc>http://localhost:1313/projects/vortraege/</loc>
     <lastmod>2026-02-24T21:43:22+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/workshops/</loc>
+    <loc>http://localhost:1313/pages/wer-wir-sind/</loc>
+    <lastmod>2026-02-24T21:43:22+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/workshops/</loc>
     <lastmod>2026-02-24T21:43:22+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/workshop-dresden-2024/</loc>
@@ -35,7 +38,13 @@
     <loc>http://localhost:1313/posts/workshop-berlin-2023/</loc>
     <lastmod>2023-12-02T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/gallery/image-01/</loc>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/gallery/</loc>
+  </url><url>
+    <loc>http://localhost:1313/podcasts/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url>
