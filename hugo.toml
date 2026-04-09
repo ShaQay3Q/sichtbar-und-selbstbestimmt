@@ -4,6 +4,11 @@ defaultContentLanguage = "de"
 title = "Sichtbar & Selbstbestimmt"
 theme = "ananke"
 
+[permalinks]
+  pages = "/:slug/"
+  projects = "/:slug/"
+  podcasts = "/podcast/:slug/"
+
 [params]
   description = "Kollektive Auseinandersetzung mit sexualisierter Gewalt"
   ShowReadingTime = false
@@ -11,8 +16,8 @@ theme = "ananke"
   ShowPostNavLinks = true
   mainSections = ["posts"]
 
-
 [menu]
+
   [[menu.main]]
     name = "Aktuelles"
     url = "/"
@@ -49,7 +54,7 @@ theme = "ananke"
 
   [[menu.main]]
     name = "Inhalte & Beiträge"
-    url = "/inhalte/"
+    url = "/posts/"
     weight = 4
 
   [[menu.main]]
