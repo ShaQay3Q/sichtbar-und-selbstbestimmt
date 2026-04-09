@@ -2,6 +2,8 @@
 title: "Workshop in Berlin: Sexualisierte Gewalt thematisieren"
 date: 2023-12-02
 draft: false
+images: []
+tags: []
 ---
 
 Workshop zu solidarischem Umgang und Verantwortungsübernahme über Einzelfälle hinaus.

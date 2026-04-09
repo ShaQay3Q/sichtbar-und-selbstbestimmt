@@ -13,6 +13,23 @@ media_folder: "static/images"
 public_folder: "/images"
 
 collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "Wer wir sind"
+        name: "about"
+        file: "content/pages/wer-wir-sind.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Kontakt"
+        name: "kontakt"
+        file: "content/pages/kontakt.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
   - name: "posts"
     label: "Posts"
     folder: "content/posts"
