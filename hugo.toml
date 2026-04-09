@@ -7,7 +7,7 @@ theme = "ananke"
 [permalinks]
   pages = "/:slug/"
   projects = "/:slug/"
-  podcasts = "/podcast/:slug/"
+  podcasts = "/podcasts/:slug/"
 
 [params]
   description = "Kollektive Auseinandersetzung mit sexualisierter Gewalt"
@@ -35,8 +35,8 @@ theme = "ananke"
       hasChildren = true
 
   [[menu.main]]
-    name = "Podcast"
-    url = "/podcast/"
+    name = "Podcasts"
+    url = "/podcasts/"
     parent = "Was wir machen"
     weight = 1
 

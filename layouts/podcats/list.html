@@ -1,0 +1,14 @@
+{{ define "main" }}
+<h1>Podcast</h1>
+
+{{ range .Pages }}
+<article style="margin-bottom: 2rem;">
+    <h2>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </h2>
+
+    <p>{{ .Summary }}</p>
+</article>
+{{ end }}
+
+{{ end }}

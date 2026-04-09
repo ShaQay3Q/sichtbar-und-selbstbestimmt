@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/podcasts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Episode 01</title>
-      <link>http://localhost:1313/podcast/episode-01/</link>
+      <link>http://localhost:1313/podcasts/episode-01/</link>
       <pubDate>Tue, 24 Feb 2026 21:43:22 +0100</pubDate>
-      <guid>http://localhost:1313/podcast/episode-01/</guid>
+      <guid>http://localhost:1313/podcasts/episode-01/</guid>
       <description>&lt;p&gt;Unser Podcast beschäftigt sich mit dem Thema sexualisierte Gewalt aus der&#xA;Perspektive von Betroffenen. Wir sprechen über gesellschaftliche Strukturen,&#xA;persönliche Erfahrungen und politische Forderungen.&lt;/p&gt;&#xA;&lt;p&gt;Ihr findet unseren Podcast auf allen gängigen Plattformen.&lt;/p&gt;&#xA;&lt;hr&gt;</description>
     </item>
   </channel>
