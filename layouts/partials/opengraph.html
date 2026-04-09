@@ -1,0 +1,9 @@
+{{/* Safe OpenGraph override */}}
+
+{{ $images := .Params.images | default slice }}
+
+{{ if gt (len $images) 0 }}
+{{ range $images }}
+<meta property="og:image" content="{{ . | absURL }}" />
+{{ end }}
+{{ end }}

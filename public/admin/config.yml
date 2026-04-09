@@ -55,4 +55,16 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Audio File", name: "audio", widget: "file" }
+      - {
+          label: "Cover Image",
+          name: "cover",
+          widget: "image",
+          required: false,
+        }
+      - {
+          label: "Duration",
+          name: "duration",
+          widget: "string",
+          required: false,
+        }
       - { label: "Description", name: "body", widget: "markdown" }

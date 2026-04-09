@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Podcasts on Sichtbar &amp; Selbstbestimmt</title>
-    <link>http://localhost:1313/podcasts/</link>
+    <link>http://localhost:38575/podcasts/</link>
     <description>Recent content in Podcasts on Sichtbar &amp; Selbstbestimmt</description>
     <generator>Hugo</generator>
     <language>de</language>
     <lastBuildDate>Tue, 24 Feb 2026 21:43:22 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/podcasts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:38575/podcasts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Episode 01</title>
-      <link>http://localhost:1313/podcasts/episode-01/</link>
+      <link>http://localhost:38575/podcasts/episode-01/</link>
       <pubDate>Tue, 24 Feb 2026 21:43:22 +0100</pubDate>
-      <guid>http://localhost:1313/podcasts/episode-01/</guid>
-      <description>&lt;p&gt;Unser Podcast beschäftigt sich mit dem Thema sexualisierte Gewalt aus der&#xA;Perspektive von Betroffenen. Wir sprechen über gesellschaftliche Strukturen,&#xA;persönliche Erfahrungen und politische Forderungen.&lt;/p&gt;&#xA;&lt;p&gt;Ihr findet unseren Podcast auf allen gängigen Plattformen.&lt;/p&gt;&#xA;&lt;hr&gt;</description>
+      <guid>http://localhost:38575/podcasts/episode-01/</guid>
+      <description>&lt;p&gt;Unser Podcast beschäftigt sich mit dem Thema sexualisierte Gewalt aus der&#xA;Perspektive von Betroffenen. Wir sprechen über gesellschaftliche Strukturen,&#xA;persönliche Erfahrungen und politische Forderungen.&lt;/p&gt;&#xA;&lt;p&gt;Ihr findet unseren Podcast auf allen gängigen Plattformen.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

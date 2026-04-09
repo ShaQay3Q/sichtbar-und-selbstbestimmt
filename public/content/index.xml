@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contents on Sichtbar &amp; Selbstbestimmt</title>
-    <link>http://localhost:1313/content/</link>
+    <link>http://localhost:38575/content/</link>
     <description>Recent content in Contents on Sichtbar &amp; Selbstbestimmt</description>
     <generator>Hugo</generator>
     <language>de</language>
     <lastBuildDate>Tue, 07 Apr 2026 20:48:00 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/content/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:38575/content/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>test</title>
-      <link>http://localhost:1313/content/posts/test/</link>
+      <link>http://localhost:38575/content/posts/test/</link>
       <pubDate>Tue, 07 Apr 2026 20:48:00 +0200</pubDate>
-      <guid>http://localhost:1313/content/posts/test/</guid>
+      <guid>http://localhost:38575/content/posts/test/</guid>
       <description>&lt;p&gt;i am just testing&lt;/p&gt;</description>
     </item>
   </channel>
