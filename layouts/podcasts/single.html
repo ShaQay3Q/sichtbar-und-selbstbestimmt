@@ -1,0 +1,32 @@
+{{ define "main" }}
+<article style="max-width: 720px; margin: auto;">
+
+  <h1>{{ .Title }}</h1>
+
+  {{ with .Params.cover }}
+  <img src="{{ . }}" style="
+      width:100%;
+      border-radius:10px;
+      margin:1.5rem 0;
+    ">
+  {{ end }}
+
+  {{ with .Params.duration }}
+  <p style="color:gray;">⏱ Dauer: {{ . }}</p>
+  {{ end }}
+
+  {{ with .Params.audio }}
+  <audio controls style="
+      width:100%;
+      margin:1.5rem 0;
+    ">
+    <source src="{{ . }}" type="audio/mpeg">
+  </audio>
+  {{ end }}
+
+  <div style="line-height:1.6;">
+    {{ .Content }}
+  </div>
+
+</article>
+{{ end }}
