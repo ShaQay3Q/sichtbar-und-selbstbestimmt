@@ -1,8 +1,8 @@
-+++
-date = '2026-02-24T21:43:22+01:00'
-draft = false
-title = 'Links'
-+++
+---
+title: "Links"
+date: "2026-02-24T21:43:22+01:00"
+draft: false
+---
 
 ## Unterstützungsstrukturen
 

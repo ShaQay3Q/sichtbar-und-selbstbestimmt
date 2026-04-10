@@ -1,8 +1,8 @@
-+++
-date = '2026-02-24T21:43:22+01:00'
-draft = false
-title = 'Kontakt'
-+++
+---
+title: "Kontakt"
+date: "2026-02-24T21:43:22+01:00"
+draft: false
+---
 
 Ihr könnt uns per E-Mail erreichen:
 

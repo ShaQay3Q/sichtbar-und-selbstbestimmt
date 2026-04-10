@@ -1,8 +1,8 @@
-+++
-date = '2026-02-24T21:43:22+01:00'
-draft = false
-title = 'Workshops'
-+++
+---
+title: "Workshops"
+date: "2026-02-24T21:43:22+01:00"
+draft: false
+---
 
 Wir bieten zwei verschiedene Workshop-Formate an:
 
