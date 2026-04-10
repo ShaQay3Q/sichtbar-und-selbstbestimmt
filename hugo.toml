@@ -63,6 +63,13 @@ theme = "ananke"
     weight = 5
 
   [[menu.main]]
+    name = "Galerie"
+    url = "/gallery/"
+    weight = 6
+    
+  [[menu.main]]
     name = "Kontakt"
     url = "/kontakt/"
-    weight = 6
+    weight = 7
+
+  
