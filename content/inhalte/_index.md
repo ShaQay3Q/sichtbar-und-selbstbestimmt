@@ -1,7 +1,7 @@
-+++
-date = '2026-02-24T21:43:23+01:00'
-draft = false
-title = 'Inhalte'
-+++
+---
+date: "2026-02-24T21:43:23+01:00"
+draft: false
+title: "Inhalte"
+---
 
 ## Inhalte
