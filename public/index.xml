@@ -6,17 +6,10 @@
     <description>Recent content in Wer Wir Sind on Sichtbar &amp; Selbstbestimmt</description>
     <generator>Hugo</generator>
     <language>de</language>
-    <lastBuildDate>Thu, 09 Apr 2026 11:32:00 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 24 Feb 2026 21:43:22 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>test</title>
-      <link>http://localhost:1313/posts/test/</link>
-      <pubDate>Thu, 09 Apr 2026 11:32:00 +0200</pubDate>
-      <guid>http://localhost:1313/posts/test/</guid>
-      <description>&lt;p&gt;Just testing!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Episode-01</title>
+      <title>Episode 01</title>
       <link>http://localhost:1313/podcasts/episode-01/</link>
       <pubDate>Tue, 24 Feb 2026 21:43:22 +0100</pubDate>
       <guid>http://localhost:1313/podcasts/episode-01/</guid>
