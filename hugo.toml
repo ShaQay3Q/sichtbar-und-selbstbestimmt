@@ -18,14 +18,20 @@ theme = "ananke"
 
 [menu]
 
-  [[menu.main]]
-    name = "Aktuelles"
-    url = "/"
-    weight = 1
+  # [[menu.main]]
+  #   name = "Aktuelles"
+  #   url = "/"
+  #   weight = 1
 
   [[menu.main]]
     name = "Wer wir sind"
-    url = "/wer-wir-sind/"
+    url = "/"
+    weight = 1
+
+    [[menu.main]]
+    # name = "Inhalte & Beiträge"
+    name = "Aktuelles"
+    url = "/posts/"
     weight = 2
 
   [[menu.main]]
@@ -53,23 +59,18 @@ theme = "ananke"
     weight = 3
 
   [[menu.main]]
-    name = "Inhalte & Beiträge"
-    url = "/posts/"
-    weight = 4
-
-  [[menu.main]]
     name = "Links"
     url = "/links/"
-    weight = 5
+    weight = 4
 
   [[menu.main]]
     name = "Galerie"
     url = "/gallery/"
-    weight = 6
+    weight = 5
     
   [[menu.main]]
     name = "Kontakt"
     url = "/kontakt/"
-    weight = 7
+    weight = 6
 
   

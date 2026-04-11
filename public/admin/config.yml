@@ -12,11 +12,12 @@ collections:
     label: "Pages"
     format: frontmatter
     files:
-      - label: "Wer wir sind"
-        name: "about"
-        file: "content/pages/wer-wir-sind.md"
+      - label: "Wer wir sind (Homepage)"
+        name: "homepage"
+        file: "content/_index.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
 
       - label: "Kontakt"
