@@ -49,6 +49,8 @@
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
+    <loc>http://localhost:1313/podcasts/episode-02/</loc>
+  </url><url>
     <loc>http://localhost:1313/gallery/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>

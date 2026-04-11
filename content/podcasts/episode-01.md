@@ -1,12 +1,13 @@
-+++
-date = '2026-02-24T21:43:22+01:00'
-draft = false
-title = 'Episode 01'
-duration = '32:10'
-cover = '/images/cover.jpg'
-audio = "/images/sample.mp3"
-images = ["/images/cover.jpg"]
-+++
+---
+date: 2026-02-24T21:43:22+01:00
+draft: false
+title: Episode-01
+audio: /images/sample.mp3
+cover: ""
+duration: 32:10
+images:
+  - /images/cover.jpg
+---
 
 Unser Podcast beschäftigt sich mit dem Thema sexualisierte Gewalt aus der
 Perspektive von Betroffenen. Wir sprechen über gesellschaftliche Strukturen,

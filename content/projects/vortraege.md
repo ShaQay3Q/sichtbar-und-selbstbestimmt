@@ -5,23 +5,6 @@ date: "2026-02-24T21:43:22+01:00"
 draft: false
 ---
 
-Also I noticed two other issues in the file while looking at it:
-
-    There's a typo: vohun should be von
-    The email link at the bottom is malformed — __mailto:...__ should just be mailto:...
-
-Here's the corrected full file:
-markdown
-
----
-
-title: "Vorträge"
-slug: "vortraege"
-date: "2026-02-24T21:43:22+01:00"
-draft: false
-
----
-
 Wir halten Vorträge zu folgenden Themen:
 
 ## Nicht einfach nur ein Einzelfall
