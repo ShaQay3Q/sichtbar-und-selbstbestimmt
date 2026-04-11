@@ -1,7 +1,7 @@
 ---
 title: "Wer Wir Sind"
 date: "2026-02-24T21:43:22+01:00"
-draft: true
+draft: false
 ---
 
 sichtbar & selbstbestimmt ist eine selbstorganisierte Gruppe von Betroffenen
