@@ -32,6 +32,9 @@
     <loc>http://localhost:1313/projects/</loc>
     <lastmod>2026-02-24T21:43:22+01:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/vortraege/</loc>
+    <lastmod>2026-02-24T21:43:22+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/wer-wir-sind/</loc>
     <lastmod>2026-02-24T21:43:22+01:00</lastmod>
   </url><url>
@@ -43,8 +46,6 @@
   </url><url>
     <loc>http://localhost:1313/posts/workshop-berlin-2023/</loc>
     <lastmod>2023-12-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>

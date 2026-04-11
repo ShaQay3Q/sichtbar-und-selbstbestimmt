@@ -37,6 +37,13 @@
       <description>&lt;h2 id=&#34;unterstützungsstrukturen&#34;&gt;Unterstützungsstrukturen&lt;/h2&gt;&#xA;&lt;p&gt;Hier findet ihr Anlaufstellen und Unterstützungsangebote für Betroffene&#xA;von sexualisierter Gewalt.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.wildwasser.de&#34;&gt;Wildwasser e.V.&lt;/a&gt; — Beratung für Mädchen und Frauen&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.weisser-ring.de&#34;&gt;Weißer Ring&lt;/a&gt; — Hilfe für Kriminalitätsopfer&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.hilfetelefon.de&#34;&gt;Hilfetelefon Gewalt gegen Frauen&lt;/a&gt; — 08000 116 016 (kostenlos, 24/7)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;zum-weiter-stöbern&#34;&gt;Zum Weiter Stöbern&lt;/h2&gt;&#xA;&lt;p&gt;Weiterführende Links zu Texten, Projekten und Organisationen rund um&#xA;das Thema sexualisierte Gewalt.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://metoo.de&#34;&gt;#MeToo Deutschland&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.frauenrechte.de&#34;&gt;Terre des Femmes&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://antifeminismus-monitor.de&#34;&gt;Antifeminismus-Monitor&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
+      <title>Vorträge</title>
+      <link>http://localhost:1313/vortraege/</link>
+      <pubDate>Tue, 24 Feb 2026 21:43:22 +0100</pubDate>
+      <guid>http://localhost:1313/vortraege/</guid>
+      <description>&lt;p&gt;Also I noticed two other issues in the file while looking at it:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;There&#39;s a typo: vohun should be von&#xA;The email link at the bottom is malformed — __mailto:...__ should just be mailto:...&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s the corrected full file:&#xA;markdown&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;title: &amp;ldquo;Vorträge&amp;rdquo;&#xA;slug: &amp;ldquo;vortraege&amp;rdquo;&#xA;date: &amp;ldquo;2026-02-24T21:43:22+01:00&amp;rdquo;&#xA;draft: false&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Wir halten Vorträge zu folgenden Themen:&lt;/p&gt;&#xA;&lt;h2 id=&#34;nicht-einfach-nur-ein-einzelfall&#34;&gt;Nicht einfach nur ein Einzelfall&lt;/h2&gt;&#xA;&lt;p&gt;Wie sexualisierte Gewalt thematisieren und kollektiv Verantwortung übernehmen.&lt;/p&gt;&#xA;&lt;p&gt;In diesem Vortrag geht es um die Frage, warum es Betroffenen von sexualisierter&#xA;Gewalt und/oder Vergewaltigung so schwer gemacht wird, sich selbstbestimmt zu&#xA;dem Thema zu äußern, welche diskursiven und materiellen Hindernisse es gibt.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Wer Wir Sind</title>
       <link>http://localhost:1313/wer-wir-sind/</link>
       <pubDate>Tue, 24 Feb 2026 21:43:22 +0100</pubDate>
@@ -63,13 +70,6 @@
       <pubDate>Sat, 02 Dec 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/workshop-berlin-2023/</guid>
       <description>&lt;p&gt;Workshop zu solidarischem Umgang und Verantwortungsübernahme über Einzelfälle hinaus.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Termin:&lt;/strong&gt; 02. &amp;amp; 03. Dezember 2023&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Ort:&lt;/strong&gt; Berlin&lt;/p&gt;&#xA;&lt;p&gt;Der Workshop richtet sich an Personen, die nicht direkt von sexualisierter&#xA;Gewalt betroffen sind.&lt;/p&gt;&#xA;&lt;p&gt;Weitere Infos zu unseren Workshops findet ihr &lt;a href=&#34;http://localhost:1313/workshops&#34;&gt;hier&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Anmeldung und Fragen: &lt;a href=&#34;mailto:ws-sise@riseup.net&#34;&gt;ws-sise@riseup.net&lt;/a&gt;&#xA;(Bitte mit Datum des Workshops im Betreff!)&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/</guid>
-      <description>&lt;p&gt;Hugo-Wbsite&#xA;/&lt;/p&gt;&#xA;&lt;p&gt;I tried to give you acces to relevant arts of the hugo project. take a look at them.&lt;/p&gt;&#xA;&lt;p&gt;I wanna see what can be improved for now.&#xA;1:33 PM&lt;/p&gt;&#xA;&lt;p&gt;Looking at your Hugo project, here are the things I&amp;rsquo;d focus on improving:&lt;/p&gt;&#xA;&lt;p&gt;Bugs / Broken things&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;Typo in layout folder names — layouts/podcats/ (missing the &#39;d&#39;). Hugo won&#39;t find these templates, so podcast pages fall back to the default single.html, losing the audio player and cover image on the episode page.&#xA;Decap CMS config only covers pages, posts, projects, podcasts, gallery — but links.md lives in content/pages/ and isn&#39;t listed as an editable file in the CMS config. Same for the wer-wir-sind page, which is listed but uses TOML frontmatter (+++) while the CMS would write YAML (---), which could corrupt the file on save.&#xA;content/gallery/_index.html — this should be _index.md. Hugo may handle it, but it&#39;s non-standard and could cause issues depending on version.&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Missing features&lt;/p&gt;</description>
     </item>
     <item>
       <title>Workshop 21.03.2025</title>

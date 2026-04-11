@@ -9,18 +9,18 @@
     <lastBuildDate>Tue, 24 Feb 2026 21:43:22 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Vorträge</title>
+      <link>http://localhost:1313/vortraege/</link>
+      <pubDate>Tue, 24 Feb 2026 21:43:22 +0100</pubDate>
+      <guid>http://localhost:1313/vortraege/</guid>
+      <description>&lt;p&gt;Also I noticed two other issues in the file while looking at it:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;There&#39;s a typo: vohun should be von&#xA;The email link at the bottom is malformed — __mailto:...__ should just be mailto:...&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s the corrected full file:&#xA;markdown&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;title: &amp;ldquo;Vorträge&amp;rdquo;&#xA;slug: &amp;ldquo;vortraege&amp;rdquo;&#xA;date: &amp;ldquo;2026-02-24T21:43:22+01:00&amp;rdquo;&#xA;draft: false&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Wir halten Vorträge zu folgenden Themen:&lt;/p&gt;&#xA;&lt;h2 id=&#34;nicht-einfach-nur-ein-einzelfall&#34;&gt;Nicht einfach nur ein Einzelfall&lt;/h2&gt;&#xA;&lt;p&gt;Wie sexualisierte Gewalt thematisieren und kollektiv Verantwortung übernehmen.&lt;/p&gt;&#xA;&lt;p&gt;In diesem Vortrag geht es um die Frage, warum es Betroffenen von sexualisierter&#xA;Gewalt und/oder Vergewaltigung so schwer gemacht wird, sich selbstbestimmt zu&#xA;dem Thema zu äußern, welche diskursiven und materiellen Hindernisse es gibt.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Workshops</title>
       <link>http://localhost:1313/workshops/</link>
       <pubDate>Tue, 24 Feb 2026 21:43:22 +0100</pubDate>
       <guid>http://localhost:1313/workshops/</guid>
       <description>&lt;p&gt;Wir bieten zwei verschiedene Workshop-Formate an:&lt;/p&gt;&#xA;&lt;h2 id=&#34;workshop-für-betroffene&#34;&gt;Workshop für Betroffene&lt;/h2&gt;&#xA;&lt;p&gt;Ein Raum für kollektive Auseinandersetzung mit sexualisierter Gewalt.&#xA;Dieser Workshop richtet sich an Menschen, die selbst von sexualisierter&#xA;Gewalt betroffen sind.&lt;/p&gt;&#xA;&lt;p&gt;Anmeldung und Fragen: &lt;a href=&#34;mailto:ws-sise@riseup.net&#34;&gt;ws-sise@riseup.net&lt;/a&gt;&#xA;(Bitte mit Datum und Ort des Workshops im Betreff!)&lt;/p&gt;&#xA;&lt;h2 id=&#34;workshop-sexualisierte-gewalt-thematisieren&#34;&gt;Workshop: Sexualisierte Gewalt thematisieren&lt;/h2&gt;&#xA;&lt;p&gt;Workshop zu solidarischem Umgang und Verantwortungsübernahme über&#xA;Einzelfälle hinaus. Dieser Workshop richtet sich an Personen, die nicht&#xA;direkt von sexualisierter Gewalt betroffen sind.&lt;/p&gt;&#xA;&lt;p&gt;Teilnahmebeitrag: 0-100 € (Solidarkonzept)&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/</guid>
-      <description>&lt;p&gt;Hugo-Wbsite&#xA;/&lt;/p&gt;&#xA;&lt;p&gt;I tried to give you acces to relevant arts of the hugo project. take a look at them.&lt;/p&gt;&#xA;&lt;p&gt;I wanna see what can be improved for now.&#xA;1:33 PM&lt;/p&gt;&#xA;&lt;p&gt;Looking at your Hugo project, here are the things I&amp;rsquo;d focus on improving:&lt;/p&gt;&#xA;&lt;p&gt;Bugs / Broken things&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;Typo in layout folder names — layouts/podcats/ (missing the &#39;d&#39;). Hugo won&#39;t find these templates, so podcast pages fall back to the default single.html, losing the audio player and cover image on the episode page.&#xA;Decap CMS config only covers pages, posts, projects, podcasts, gallery — but links.md lives in content/pages/ and isn&#39;t listed as an editable file in the CMS config. Same for the wer-wir-sind page, which is listed but uses TOML frontmatter (+++) while the CMS would write YAML (---), which could corrupt the file on save.&#xA;content/gallery/_index.html — this should be _index.md. Hugo may handle it, but it&#39;s non-standard and could cause issues depending on version.&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Missing features&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
