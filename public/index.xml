@@ -2,94 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wer Wir Sind on Sichtbar &amp; Selbstbestimmt</title>
-    <link>http://localhost:35733/</link>
+    <link>http://localhost:34637/</link>
     <description>Recent content in Wer Wir Sind on Sichtbar &amp; Selbstbestimmt</description>
     <generator>Hugo</generator>
     <language>de</language>
-    <lastBuildDate>Tue, 24 Feb 2026 21:43:22 +0100</lastBuildDate>
-    <atom:link href="http://localhost:35733/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Apr 2026 13:43:00 +0200</lastBuildDate>
+    <atom:link href="http://localhost:34637/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New Workshop</title>
+      <link>http://localhost:34637/posts/2026-04-12-new-workshop/</link>
+      <pubDate>Sun, 12 Apr 2026 13:43:00 +0200</pubDate>
+      <guid>http://localhost:34637/posts/2026-04-12-new-workshop/</guid>
+      <description>&lt;p&gt;This is the new workshop!&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Episode 01</title>
-      <link>http://localhost:35733/podcasts/episode-01/</link>
+      <link>http://localhost:34637/podcasts/episode-01/</link>
       <pubDate>Tue, 24 Feb 2026 21:43:22 +0100</pubDate>
-      <guid>http://localhost:35733/podcasts/episode-01/</guid>
+      <guid>http://localhost:34637/podcasts/episode-01/</guid>
       <description>&lt;p&gt;Unser Podcast beschäftigt sich mit dem Thema sexualisierte Gewalt aus der&#xA;Perspektive von Betroffenen. Wir sprechen über gesellschaftliche Strukturen,&#xA;persönliche Erfahrungen und politische Forderungen.&lt;/p&gt;&#xA;&lt;p&gt;Ihr findet unseren Podcast auf allen gängigen Plattformen.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kontakt</title>
-      <link>http://localhost:35733/kontakt/</link>
+      <link>http://localhost:34637/kontakt/</link>
       <pubDate>Tue, 24 Feb 2026 21:43:22 +0100</pubDate>
-      <guid>http://localhost:35733/kontakt/</guid>
+      <guid>http://localhost:34637/kontakt/</guid>
       <description>&lt;p&gt;Ihr könnt uns per E-Mail erreichen:&lt;/p&gt;&#xA;&lt;p&gt;Allgemeine Anfragen: &lt;a href=&#34;mailto:sichtbarundselbstbestimmt@riseup.net&#34;&gt;sichtbarundselbstbestimmt@riseup.net&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Workshop-Anmeldungen: &lt;a href=&#34;mailto:ws-sise@riseup.net&#34;&gt;ws-sise@riseup.net&lt;/a&gt;&#xA;(Bitte mit Datum und Ort des Workshops im Betreff!)&lt;/p&gt;</description>
     </item>
     <item>
       <title>Links</title>
-      <link>http://localhost:35733/links/</link>
+      <link>http://localhost:34637/links/</link>
       <pubDate>Tue, 24 Feb 2026 21:43:22 +0100</pubDate>
-      <guid>http://localhost:35733/links/</guid>
+      <guid>http://localhost:34637/links/</guid>
       <description>&lt;h2 id=&#34;unterstützungsstrukturen&#34;&gt;Unterstützungsstrukturen&lt;/h2&gt;&#xA;&lt;p&gt;Hier findet ihr Anlaufstellen und Unterstützungsangebote für Betroffene&#xA;von sexualisierter Gewalt.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.wildwasser.de&#34;&gt;Wildwasser e.V.&lt;/a&gt; — Beratung für Mädchen und Frauen&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.weisser-ring.de&#34;&gt;Weißer Ring&lt;/a&gt; — Hilfe für Kriminalitätsopfer&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.hilfetelefon.de&#34;&gt;Hilfetelefon Gewalt gegen Frauen&lt;/a&gt; — 08000 116 016 (kostenlos, 24/7)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;zum-weiter-stöbern&#34;&gt;Zum Weiter Stöbern&lt;/h2&gt;&#xA;&lt;p&gt;Weiterführende Links zu Texten, Projekten und Organisationen rund um&#xA;das Thema sexualisierte Gewalt.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://metoo.de&#34;&gt;#MeToo Deutschland&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.frauenrechte.de&#34;&gt;Terre des Femmes&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://antifeminismus-monitor.de&#34;&gt;Antifeminismus-Monitor&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Vorträge</title>
-      <link>http://localhost:35733/vortraege/</link>
+      <link>http://localhost:34637/vortraege/</link>
       <pubDate>Tue, 24 Feb 2026 21:43:22 +0100</pubDate>
-      <guid>http://localhost:35733/vortraege/</guid>
+      <guid>http://localhost:34637/vortraege/</guid>
       <description>&lt;p&gt;Wir halten Vorträge zu folgenden Themen:&lt;/p&gt;&#xA;&lt;h2 id=&#34;nicht-einfach-nur-ein-einzelfall&#34;&gt;Nicht einfach nur ein Einzelfall&lt;/h2&gt;&#xA;&lt;p&gt;Wie sexualisierte Gewalt thematisieren und kollektiv Verantwortung übernehmen.&lt;/p&gt;&#xA;&lt;p&gt;In diesem Vortrag geht es um die Frage, warum es Betroffenen von sexualisierter&#xA;Gewalt und/oder Vergewaltigung so schwer gemacht wird, sich selbstbestimmt zu&#xA;dem Thema zu äußern, welche diskursiven und materiellen Hindernisse es gibt.&lt;/p&gt;&#xA;&lt;h2 id=&#34;hindernisse-im-selbstbestimmten-umgang-mit-der-betroffenheit&#34;&gt;Hindernisse im selbstbestimmten Umgang mit der Betroffenheit&lt;/h2&gt;&#xA;&lt;p&gt;Auf der Basis von Betroffenen-Stimmen beleuchten wir, was gesellschaftlich und&#xA;in der linken Szene beim Thematisieren von sexualisierter Gewalt schief läuft&#xA;und welche Wünsche wir als Gruppe an einen solidarischen Umgang haben.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Wer Wir Sind</title>
-      <link>http://localhost:35733/wer-wir-sind/</link>
+      <link>http://localhost:34637/wer-wir-sind/</link>
       <pubDate>Tue, 24 Feb 2026 21:43:22 +0100</pubDate>
-      <guid>http://localhost:35733/wer-wir-sind/</guid>
+      <guid>http://localhost:34637/wer-wir-sind/</guid>
       <description>&lt;p&gt;sichtbar &amp;amp; selbstbestimmt ist eine selbstorganisierte Gruppe von Betroffenen&#xA;sexualisierter Gewalt. Wir haben uns im Herbst 2019 in Leipzig gegründet.&lt;/p&gt;&#xA;&lt;p&gt;Wir verstehen uns als politische Gruppe, die sich kollektiv mit den eigenen&#xA;Betroffenheitserfahrungen auseinandersetzt und dabei gesellschaftliche Strukturen&#xA;in den Blick nimmt, die sexualisierte Gewalt ermöglichen und aufrechterhalten.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Workshops</title>
-      <link>http://localhost:35733/workshops/</link>
+      <link>http://localhost:34637/workshops/</link>
       <pubDate>Tue, 24 Feb 2026 21:43:22 +0100</pubDate>
-      <guid>http://localhost:35733/workshops/</guid>
+      <guid>http://localhost:34637/workshops/</guid>
       <description>&lt;p&gt;Wir bieten zwei verschiedene Workshop-Formate an:&lt;/p&gt;&#xA;&lt;h2 id=&#34;workshop-für-betroffene&#34;&gt;Workshop für Betroffene&lt;/h2&gt;&#xA;&lt;p&gt;Ein Raum für kollektive Auseinandersetzung mit sexualisierter Gewalt.&#xA;Dieser Workshop richtet sich an Menschen, die selbst von sexualisierter&#xA;Gewalt betroffen sind.&lt;/p&gt;&#xA;&lt;p&gt;Anmeldung und Fragen: &lt;a href=&#34;mailto:ws-sise@riseup.net&#34;&gt;ws-sise@riseup.net&lt;/a&gt;&#xA;(Bitte mit Datum und Ort des Workshops im Betreff!)&lt;/p&gt;&#xA;&lt;h2 id=&#34;workshop-sexualisierte-gewalt-thematisieren&#34;&gt;Workshop: Sexualisierte Gewalt thematisieren&lt;/h2&gt;&#xA;&lt;p&gt;Workshop zu solidarischem Umgang und Verantwortungsübernahme über&#xA;Einzelfälle hinaus. Dieser Workshop richtet sich an Personen, die nicht&#xA;direkt von sexualisierter Gewalt betroffen sind.&lt;/p&gt;&#xA;&lt;p&gt;Teilnahmebeitrag: 0-100 € (Solidarkonzept)&lt;/p&gt;</description>
     </item>
     <item>
       <title>Workshop in Dresden: Sexualisierte Gewalt thematisieren</title>
-      <link>http://localhost:35733/posts/workshop-dresden-2024/</link>
+      <link>http://localhost:34637/posts/workshop-dresden-2024/</link>
       <pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:35733/posts/workshop-dresden-2024/</guid>
-      <description>&lt;p&gt;Workshop zu solidarischem Umgang und Verantwortungsübernahme über Einzelfälle hinaus.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Termin:&lt;/strong&gt; 18.10. (10-18h) &amp;amp; 19.10. (10-17h)&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Ort:&lt;/strong&gt; Dresden, genauer Ort nach Anmeldung&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Teilnahmebeitrag:&lt;/strong&gt; 0-100 € (Solidarkonzept)&lt;/p&gt;&#xA;&lt;p&gt;Der Workshop findet in deutscher Lautsprache statt, um Mittagsverpflegung&#xA;(vegan) und Pausensnacks wird sich gekümmert.&lt;/p&gt;&#xA;&lt;p&gt;Weitere Infos zu unseren Workshops findet ihr &lt;a href=&#34;http://localhost:35733/workshops&#34;&gt;hier&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Anmeldung und Fragen: &lt;a href=&#34;mailto:ws-sise@riseup.net&#34;&gt;ws-sise@riseup.net&lt;/a&gt;&#xA;(Bitte mit Datum und Ort des Workshops im Betreff!)&lt;/p&gt;</description>
+      <guid>http://localhost:34637/posts/workshop-dresden-2024/</guid>
+      <description>&lt;p&gt;Workshop zu solidarischem Umgang und Verantwortungsübernahme über Einzelfälle hinaus.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Termin:&lt;/strong&gt; 18.10. (10-18h) &amp;amp; 19.10. (10-17h)&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Ort:&lt;/strong&gt; Dresden, genauer Ort nach Anmeldung&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Teilnahmebeitrag:&lt;/strong&gt; 0-100 € (Solidarkonzept)&lt;/p&gt;&#xA;&lt;p&gt;Der Workshop findet in deutscher Lautsprache statt, um Mittagsverpflegung&#xA;(vegan) und Pausensnacks wird sich gekümmert.&lt;/p&gt;&#xA;&lt;p&gt;Weitere Infos zu unseren Workshops findet ihr &lt;a href=&#34;http://localhost:34637/workshops&#34;&gt;hier&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Anmeldung und Fragen: &lt;a href=&#34;mailto:ws-sise@riseup.net&#34;&gt;ws-sise@riseup.net&lt;/a&gt;&#xA;(Bitte mit Datum und Ort des Workshops im Betreff!)&lt;/p&gt;</description>
     </item>
     <item>
       <title>Workshop in Berlin: Sexualisierte Gewalt thematisieren</title>
-      <link>http://localhost:35733/posts/workshop-berlin-2023/</link>
+      <link>http://localhost:34637/posts/workshop-berlin-2023/</link>
       <pubDate>Sat, 02 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:35733/posts/workshop-berlin-2023/</guid>
-      <description>&lt;p&gt;Workshop zu solidarischem Umgang und Verantwortungsübernahme über Einzelfälle hinaus.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Termin:&lt;/strong&gt; 02. &amp;amp; 03. Dezember 2023&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Ort:&lt;/strong&gt; Berlin&lt;/p&gt;&#xA;&lt;p&gt;Der Workshop richtet sich an Personen, die nicht direkt von sexualisierter&#xA;Gewalt betroffen sind.&lt;/p&gt;&#xA;&lt;p&gt;Weitere Infos zu unseren Workshops findet ihr &lt;a href=&#34;http://localhost:35733/workshops&#34;&gt;hier&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Anmeldung und Fragen: &lt;a href=&#34;mailto:ws-sise@riseup.net&#34;&gt;ws-sise@riseup.net&lt;/a&gt;&#xA;(Bitte mit Datum des Workshops im Betreff!)&lt;/p&gt;</description>
+      <guid>http://localhost:34637/posts/workshop-berlin-2023/</guid>
+      <description>&lt;p&gt;Workshop zu solidarischem Umgang und Verantwortungsübernahme über Einzelfälle hinaus.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Termin:&lt;/strong&gt; 02. &amp;amp; 03. Dezember 2023&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Ort:&lt;/strong&gt; Berlin&lt;/p&gt;&#xA;&lt;p&gt;Der Workshop richtet sich an Personen, die nicht direkt von sexualisierter&#xA;Gewalt betroffen sind.&lt;/p&gt;&#xA;&lt;p&gt;Weitere Infos zu unseren Workshops findet ihr &lt;a href=&#34;http://localhost:34637/workshops&#34;&gt;hier&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Anmeldung und Fragen: &lt;a href=&#34;mailto:ws-sise@riseup.net&#34;&gt;ws-sise@riseup.net&lt;/a&gt;&#xA;(Bitte mit Datum des Workshops im Betreff!)&lt;/p&gt;</description>
     </item>
     <item>
       <title>cute bear!</title>
-      <link>http://localhost:35733/gallery/2026-04-11-cute-bear/</link>
+      <link>http://localhost:34637/gallery/2026-04-11-cute-bear/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:35733/gallery/2026-04-11-cute-bear/</guid>
+      <guid>http://localhost:34637/gallery/2026-04-11-cute-bear/</guid>
       <description>&lt;p&gt;cute little bear!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Episode 02</title>
-      <link>http://localhost:35733/podcasts/episode-02/</link>
+      <link>http://localhost:34637/podcasts/episode-02/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:35733/podcasts/episode-02/</guid>
+      <guid>http://localhost:34637/podcasts/episode-02/</guid>
       <description>&lt;p&gt;new podcast dropped!&lt;/p&gt;</description>
     </item>
     <item>
-      <title>New Gallery</title>
-      <link>http://localhost:35733/gallery/2026-04-11-new-gallery/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:35733/gallery/2026-04-11-new-gallery/</guid>
-      <description>&lt;p&gt;a closed-lid brown pot&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Workshop 21.03.2025</title>
-      <link>http://localhost:35733/gallery/2026-04-10-workshop-21-03-2025/</link>
+      <link>http://localhost:34637/gallery/2026-04-10-workshop-21-03-2025/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:35733/gallery/2026-04-10-workshop-21-03-2025/</guid>
+      <guid>http://localhost:34637/gallery/2026-04-10-workshop-21-03-2025/</guid>
       <description>&lt;p&gt;photo of a beautiful brown pot.&lt;/p&gt;</description>
     </item>
   </channel>
