@@ -19,28 +19,24 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
-
       - label: "Kontakt"
         name: "kontakt"
         file: "content/pages/kontakt.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
-
       - label: "Links"
         name: "links"
         file: "content/pages/links.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
-
       - label: "Workshops"
         name: "workshops"
         file: "content/projects/workshops.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
-
       - label: "Vorträge"
         name: "vortraege"
         file: "content/projects/vortraege.md"
@@ -86,14 +82,20 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Titel", name: "title", widget: "string" }
+      - label: "Bilder"
+        name: "photos"
+        widget: "list"
+        fields:
+          - { label: "Bild", name: "image", widget: "image" }
+          - {
+              label: "Bildbeschreibung",
+              name: "alt",
+              widget: "string",
+              required: false,
+              hint: "Beschreibung für Screenreader / blinde Nutzer*innen",
+            }
       - {
-          label: "Bild",
-          name: "image",
-          widget: "image",
-          hint: "Ein Bild auswählen oder hochladen",
-        }
-      - {
-          label: "Beschreibung",
+          label: "Album Beschreibung",
           name: "body",
           widget: "markdown",
           required: false,
