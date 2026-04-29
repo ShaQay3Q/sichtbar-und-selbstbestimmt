@@ -1,13 +1,11 @@
 {{ define "main" }}
-<div class="flex flex-row pa4 gap4" style="gap: 2rem;">
-
-    <!-- Sidebar: quick links -->
-    <aside style="min-width: 200px; max-width: 220px;">
-        <h3 class="f5 fw6 ttu tracked mb3">Beiträge</h3>
-        <ul class="list pl0 ma0">
+<div class="post-layout">
+    <aside class="post-sidebar">
+        <h2 class="heading-4">Beiträge</h2>
+        <ul class="sidebar-list">
             {{ range .Pages }}
-            <li class="mb2">
-                <a href="{{ .Permalink }}" class="link dim dark-gray f6">
+            <li>
+                <a href="{{ .RelPermalink }}">
                     {{ .Title }}
                 </a>
             </li>
@@ -15,19 +13,17 @@
         </ul>
     </aside>
 
-    <!-- Main: post excerpts -->
-    <main style="flex: 1;">
+    <div class="post-list">
         {{ range .Pages }}
-        <article class="mb5">
-            <h2 class="f4 fw6 mb1">
-                <a href="{{ .Permalink }}" class="link dim dark-gray">{{ .Title }}</a>
+        <article class="post-card">
+            <h2 class="heading-3">
+                <a class="page-list-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
             </h2>
-            <p class="f6 gray mb2">{{ .Date.Format "02. January 2006" }}</p>
-            <p class="f5 lh-copy">{{ .Summary }}</p>
-            <a href="{{ .Permalink }}" class="f6 link dim dark-red">weiterlesen →</a>
+            <p class="page-meta">{{ .Date.Format "02. January 2006" }}</p>
+            <div class="content">{{ .Summary }}</div>
+            <a href="{{ .RelPermalink }}" class="read-more">weiterlesen →</a>
         </article>
         {{ end }}
-    </main>
-
+    </div>
 </div>
 {{ end }}

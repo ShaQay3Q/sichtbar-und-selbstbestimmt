@@ -1,32 +1,25 @@
 {{ define "main" }}
-<article style="max-width: 720px; margin: auto;">
-
-  <h1>{{ .Title }}</h1>
+<article class="page-shell content">
+  <header class="page-header">
+    <h1 class="heading-1">{{ .Title }}</h1>
+  </header>
 
   {{ with .Params.cover }}
-  <img src="{{ . }}" style="
-      width:100%;
-      border-radius:10px;
-      margin:1.5rem 0;
-    ">
+  <img class="podcast-cover" src="{{ . }}" alt="">
   {{ end }}
 
   {{ with .Params.duration }}
-  <p style="color:gray;">⏱ Dauer: {{ . }}</p>
+  <p class="page-meta">Dauer: {{ . }}</p>
   {{ end }}
 
   {{ with .Params.audio }}
-  <audio controls style="
-      width:100%;
-      margin:1.5rem 0;
-    ">
+  <audio class="audio-player" controls>
     <source src="{{ . }}" type="audio/mpeg">
   </audio>
   {{ end }}
 
-  <div style="line-height:1.6;">
+  <div>
     {{ .Content }}
   </div>
-
 </article>
 {{ end }}

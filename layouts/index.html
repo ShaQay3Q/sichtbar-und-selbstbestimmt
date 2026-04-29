@@ -1,44 +1,49 @@
 <!DOCTYPE html>
-<html lang="de">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<html lang="{{ site.Language.Lang | default "de" }}">
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Wer Wir Sind | Sichtbar &amp; Selbstbestimmt</title>
+    <title>{{ .Title }} | {{ .Site.Title }}</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="Kollektive Auseinandersetzung mit sexualisierter Gewalt">
-    <meta name="generator" content="Hugo 0.161.0">
+    <meta name="description" content="{{ .Description | default .Site.Params.description }}">
+    <meta name="generator" content="Hugo {{ hugo.Version }}">
+    {{- if hugo.IsDevelopment }}
       <meta name="robots" content="noindex, nofollow">
-      <link href="/index.xml" rel="alternate" type="application/rss&#43;xml" title="Sichtbar &amp; Selbstbestimmt">
-      <link href="/index.xml" rel="feed" type="application/rss&#43;xml" title="Sichtbar &amp; Selbstbestimmt">
-    <link rel="canonical" href="http://localhost:1313/">
-    <meta itemprop="name" content="Wer Wir Sind">
-    <meta itemprop="description" content="Kollektive Auseinandersetzung mit sexualisierter Gewalt">
-    <meta itemprop="datePublished" content="2026-02-24T21:43:22&#43;01:00">
-    <meta itemprop="dateModified" content="2026-02-24T21:43:22&#43;01:00">
-    <meta itemprop="wordCount" content="48">
+    {{- end }}
+    {{- with .OutputFormats.Get "RSS" }}
+      <link href="{{ .RelPermalink }}" rel="alternate" type="{{ .MediaType.Type }}" title="{{ $.Site.Title }}">
+      <link href="{{ .RelPermalink }}" rel="feed" type="{{ .MediaType.Type }}" title="{{ $.Site.Title }}">
+    {{- end }}
+    <link rel="canonical" href="{{ .Permalink }}">
+    <meta itemprop="name" content="{{ .Title }}">
+    <meta itemprop="description" content="{{ .Description | default .Site.Params.description }}">
+{{ with .Date }}    <meta itemprop="datePublished" content="{{ .Format "2006-01-02T15:04:05-07:00" }}">{{ end }}
+{{ with .Lastmod }}    <meta itemprop="dateModified" content="{{ .Format "2006-01-02T15:04:05-07:00" }}">{{ end }}
+    <meta itemprop="wordCount" content="{{ .WordCount }}">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Wer Wir Sind">
-    <meta name="twitter:description" content="Kollektive Auseinandersetzung mit sexualisierter Gewalt">
-    <link rel="stylesheet" href="/css/custom.css">
+    <meta name="twitter:title" content="{{ .Title }}">
+    <meta name="twitter:description" content="{{ .Description | default .Site.Params.description }}">
+    <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
   </head>
   <body class="sise-home">
     <header class="site-header">
-      <a class="logo" href="/">SI<span>SE</span></a>
+      <a class="logo" href="{{ .Site.Home.RelPermalink }}">SI<span>SE</span></a>
       <nav class="site-nav" aria-label="Hauptnavigation">
         <ul class="site-menu">
-              <li><a href="/">Wer wir sind</a></li>
-              <li><a href="/posts/">Aktuelles</a></li>
+          {{- range .Site.Menus.main }}
+            {{- if .HasChildren }}
               <li class="dropdown-parent">
-                <button class="dropdown-toggle" type="button" aria-haspopup="true">Was wir machen</button>
+                <button class="dropdown-toggle" type="button" aria-haspopup="true">{{ .Name }}</button>
                 <ul class="dropdown-menu">
-                    <li><a href="/podcasts/">Podcasts</a></li>
-                    <li><a href="/workshops/">Workshops</a></li>
-                    <li><a href="/vortraege/">Vorträge</a></li>
+                  {{- range .Children }}
+                    <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+                  {{- end }}
                 </ul>
               </li>
-              <li><a href="/links/">Links</a></li>
-              <li><a href="/gallery/">Galerie</a></li>
-              <li><a href="/kontakt/">Kontakt</a></li>
+            {{- else }}
+              <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+            {{- end }}
+          {{- end }}
         </ul>
       </nav>
     </header>
@@ -66,19 +71,19 @@
             <div class="card-number">01</div>
             <h3 class="heading-3">Gruppe gr&uuml;nden</h3>
             <p>Schritt f&uuml;r Schritt zur eigenen SISE-Gruppe &ndash; mit allem, was ihr daf&uuml;r braucht.</p>
-            <a class="card-link" href="/workshops/">Mehr erfahren</a>
+            <a class="card-link" href="{{ "workshops/" | relURL }}">Mehr erfahren</a>
           </article>
           <article class="card">
             <div class="card-number">02</div>
             <h3 class="heading-3">Zine</h3>
             <p>Unser Zine als PDF &ndash; kostenlos zum Download. Druckt es aus, verteilt es weiter.</p>
-            <a class="card-link" href="/links/">Download</a>
+            <a class="card-link" href="{{ "links/" | relURL }}">Download</a>
           </article>
           <article class="card">
             <div class="card-number">03</div>
             <h3 class="heading-3">Mehr entdecken</h3>
             <p>Collagen, Redebeitr&auml;ge von Demonstrationen und weiterf&uuml;hrende Links.</p>
-            <a class="card-link" href="/gallery/">Zur &Uuml;bersicht</a>
+            <a class="card-link" href="{{ "gallery/" | relURL }}">Zur &Uuml;bersicht</a>
           </article>
         </div>
       </section>
@@ -97,7 +102,7 @@
             <div class="event-meta">19:00 Uhr &middot; Kulturzentrum Leipzig</div>
           </div>
           <div class="event-action">
-            <a class="btn-primary" href="/posts/">Mehr &rarr;</a>
+            <a class="btn-primary" href="{{ "posts/" | relURL }}">Mehr &rarr;</a>
           </div>
         </article>
       </section>
@@ -111,7 +116,7 @@
             <div class="podcast-title heading-3">Warum Schweigen keine Option ist</div>
             <p class="podcast-desc">In dieser Folge sprechen wir &uuml;ber gesellschaftliche Strukturen, die Schweigen erzwingen &ndash; und was wir dagegen tun k&ouml;nnen.</p>
           </div>
-          <a class="play-btn" href="/podcasts/" aria-label="Podcast ansehen"></a>
+          <a class="play-btn" href="{{ "podcasts/" | relURL }}" aria-label="Podcast ansehen"></a>
         </article>
       </section>
     </main>
@@ -119,10 +124,10 @@
     <footer class="site-footer">
       <div class="footer-logo">SISE</div>
       <nav class="footer-links" aria-label="Footer-Navigation">
-        <a href="/posts/">Aktuelles</a>
-        <a href="/workshops/">Workshops</a>
-        <a href="/links/">Links</a>
-        <a href="/kontakt/">Kontakt</a>
+        <a href="{{ "posts/" | relURL }}">Aktuelles</a>
+        <a href="{{ "workshops/" | relURL }}">Workshops</a>
+        <a href="{{ "links/" | relURL }}">Links</a>
+        <a href="{{ "kontakt/" | relURL }}">Kontakt</a>
       </nav>
     </footer>
   </body>

@@ -1,22 +1,23 @@
 {{ define "main" }}
-<h1>Galerie</h1>
-<div style="display: flex; flex-direction: column; gap: 3rem;">
-  {{ range .Pages }}
-  <div>
-    <h2 style="margin-bottom: 0.5rem;">{{ .Title }}</h2>
-    {{ with .Params.description }}
-    <p style="margin-bottom: 1rem;">{{ . }}</p>
-    {{ end }}
-    <div style="
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      gap: 1rem;
-    ">
-      {{ range .Params.photos }}
-      <img src="{{ .image }}" alt="{{ .alt }}" style="width: 100%; border-radius: 8px;">
-      {{ end }}
-    </div>
+<div class="page-shell">
+  <header class="page-header">
+    <h1 class="heading-1">Galerie</h1>
+  </header>
+
+  <div class="gallery-list">
+    {{- range .Pages }}
+    <section>
+      <h2 class="heading-2">{{ .Title }}</h2>
+      {{- with .Params.description }}
+      <p class="content">{{ . }}</p>
+      {{- end }}
+      <div class="gallery-grid">
+        {{- range .Params.photos }}
+        <img class="gallery-image" src="{{ .image }}" alt="{{ .alt }}">
+        {{- end }}
+      </div>
+    </section>
+    {{- end }}
   </div>
-  {{ end }}
 </div>
 {{ end }}

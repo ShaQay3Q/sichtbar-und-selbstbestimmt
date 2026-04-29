@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.Lang | default "de" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{ .Title }} | {{ .Site.Title }}</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="{{ .Description | default .Site.Params.description }}">
+    <meta name="generator" content="Hugo {{ hugo.Version }}">
+    {{- if hugo.IsDevelopment }}
+      <meta name="robots" content="noindex, nofollow">
+    {{- end }}
+    {{- with .OutputFormats.Get "RSS" }}
+      <link href="{{ .RelPermalink }}" rel="alternate" type="{{ .MediaType.Type }}" title="{{ $.Site.Title }}">
+      <link href="{{ .RelPermalink }}" rel="feed" type="{{ .MediaType.Type }}" title="{{ $.Site.Title }}">
+    {{- end }}
+    <link rel="canonical" href="{{ .Permalink }}">
+    <meta itemprop="name" content="{{ .Title }}">
+    <meta itemprop="description" content="{{ .Description | default .Site.Params.description }}">
+{{ with .Date }}    <meta itemprop="datePublished" content="{{ .Format "2006-01-02T15:04:05-07:00" }}">{{ end }}
+{{ with .Lastmod }}    <meta itemprop="dateModified" content="{{ .Format "2006-01-02T15:04:05-07:00" }}">{{ end }}
+    <meta itemprop="wordCount" content="{{ .WordCount }}">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{ .Title }}">
+    <meta name="twitter:description" content="{{ .Description | default .Site.Params.description }}">
+    <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
+  </head>
+  <body class="sise-page">
+    <header class="site-header">
+      <a class="logo" href="{{ .Site.Home.RelPermalink }}">SI<span>SE</span></a>
+      <nav class="site-nav" aria-label="Hauptnavigation">
+        <ul class="site-menu">
+          {{- range .Site.Menus.main }}
+            {{- if .HasChildren }}
+              <li class="dropdown-parent">
+                <button class="dropdown-toggle" type="button" aria-haspopup="true">{{ .Name }}</button>
+                <ul class="dropdown-menu">
+                  {{- range .Children }}
+                    <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+                  {{- end }}
+                </ul>
+              </li>
+            {{- else }}
+              <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+            {{- end }}
+          {{- end }}
+        </ul>
+      </nav>
+    </header>
+
+    <main class="site-main" role="main">
+      {{ block "main" . }}{{ end }}
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-logo">SISE</div>
+      <nav class="footer-links" aria-label="Footer-Navigation">
+        <a href="{{ "posts/" | relURL }}">Aktuelles</a>
+        <a href="{{ "workshops/" | relURL }}">Workshops</a>
+        <a href="{{ "links/" | relURL }}">Links</a>
+        <a href="{{ "kontakt/" | relURL }}">Kontakt</a>
+      </nav>
+    </footer>
+  </body>
+</html>

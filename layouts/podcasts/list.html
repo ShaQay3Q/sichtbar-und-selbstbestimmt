@@ -1,36 +1,27 @@
 {{ define "main" }}
-<h1 style="margin-bottom:2rem;">Podcast</h1>
+<div class="page-shell">
+  <header class="page-header">
+    <h1 class="heading-1">Podcast</h1>
+  </header>
 
-<div style="
-  display:grid;
-  grid-template-columns:repeat(auto-fit, minmax(280px,1fr));
-  gap:2rem;
-">
+  <div class="podcast-grid">
+    {{- range .Pages }}
+    <article class="podcast-list-card">
+      {{- with .Params.cover }}
+      <img class="podcast-cover" src="{{ . }}" alt="">
+      {{- end }}
 
-  {{ range .Pages }}
-  <div style="
-      border:1px solid #eee;
-      border-radius:10px;
-      padding:1rem;
-      box-shadow:0 2px 6px rgba(0,0,0,0.05);
-    ">
+      <h2 class="heading-3">
+        <a class="page-list-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </h2>
 
-    {{ with .Params.cover }}
-    <img src="{{ . }}" style="width:100%; border-radius:8px;">
-    {{ end }}
+      {{- with .Params.duration }}
+      <p class="page-meta">Dauer: {{ . }}</p>
+      {{- end }}
 
-    <h2 style="margin-top:1rem;">
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-    </h2>
-
-    {{ with .Params.duration }}
-    <p style="color:gray;">⏱ {{ . }}</p>
-    {{ end }}
-
-    <p>{{ .Summary }}</p>
-
+      <div class="content">{{ .Summary }}</div>
+    </article>
+    {{- end }}
   </div>
-  {{ end }}
-
 </div>
 {{ end }}

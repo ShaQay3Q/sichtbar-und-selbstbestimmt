@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Sichtbar &amp; Selbstbestimmt</title>
-    <link>http://localhost:34637/pages/</link>
+    <link>http://localhost:1313/pages/</link>
     <description>Recent content in Pages on Sichtbar &amp; Selbstbestimmt</description>
     <generator>Hugo</generator>
     <language>de</language>
     <lastBuildDate>Tue, 24 Feb 2026 21:43:22 +0100</lastBuildDate>
-    <atom:link href="http://localhost:34637/pages/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kontakt</title>
-      <link>http://localhost:34637/kontakt/</link>
+      <link>http://localhost:1313/kontakt/</link>
       <pubDate>Tue, 24 Feb 2026 21:43:22 +0100</pubDate>
-      <guid>http://localhost:34637/kontakt/</guid>
+      <guid>http://localhost:1313/kontakt/</guid>
       <description>&lt;p&gt;Ihr könnt uns per E-Mail erreichen:&lt;/p&gt;&#xA;&lt;p&gt;Allgemeine Anfragen: &lt;a href=&#34;mailto:sichtbarundselbstbestimmt@riseup.net&#34;&gt;sichtbarundselbstbestimmt@riseup.net&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Workshop-Anmeldungen: &lt;a href=&#34;mailto:ws-sise@riseup.net&#34;&gt;ws-sise@riseup.net&lt;/a&gt;&#xA;(Bitte mit Datum und Ort des Workshops im Betreff!)&lt;/p&gt;</description>
     </item>
     <item>
       <title>Links</title>
-      <link>http://localhost:34637/links/</link>
+      <link>http://localhost:1313/links/</link>
       <pubDate>Tue, 24 Feb 2026 21:43:22 +0100</pubDate>
-      <guid>http://localhost:34637/links/</guid>
+      <guid>http://localhost:1313/links/</guid>
       <description>&lt;h2 id=&#34;unterstützungsstrukturen&#34;&gt;Unterstützungsstrukturen&lt;/h2&gt;&#xA;&lt;p&gt;Hier findet ihr Anlaufstellen und Unterstützungsangebote für Betroffene&#xA;von sexualisierter Gewalt.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.wildwasser.de&#34;&gt;Wildwasser e.V.&lt;/a&gt; — Beratung für Mädchen und Frauen&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.weisser-ring.de&#34;&gt;Weißer Ring&lt;/a&gt; — Hilfe für Kriminalitätsopfer&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.hilfetelefon.de&#34;&gt;Hilfetelefon Gewalt gegen Frauen&lt;/a&gt; — 08000 116 016 (kostenlos, 24/7)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;zum-weiter-stöbern&#34;&gt;Zum Weiter Stöbern&lt;/h2&gt;&#xA;&lt;p&gt;Weiterführende Links zu Texten, Projekten und Organisationen rund um&#xA;das Thema sexualisierte Gewalt.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://metoo.de&#34;&gt;#MeToo Deutschland&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.frauenrechte.de&#34;&gt;Terre des Femmes&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://antifeminismus-monitor.de&#34;&gt;Antifeminismus-Monitor&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Wer Wir Sind</title>
-      <link>http://localhost:34637/wer-wir-sind/</link>
+      <link>http://localhost:1313/wer-wir-sind/</link>
       <pubDate>Tue, 24 Feb 2026 21:43:22 +0100</pubDate>
-      <guid>http://localhost:34637/wer-wir-sind/</guid>
+      <guid>http://localhost:1313/wer-wir-sind/</guid>
       <description>&lt;p&gt;sichtbar &amp;amp; selbstbestimmt ist eine selbstorganisierte Gruppe von Betroffenen&#xA;sexualisierter Gewalt. Wir haben uns im Herbst 2019 in Leipzig gegründet.&lt;/p&gt;&#xA;&lt;p&gt;Wir verstehen uns als politische Gruppe, die sich kollektiv mit den eigenen&#xA;Betroffenheitserfahrungen auseinandersetzt und dabei gesellschaftliche Strukturen&#xA;in den Blick nimmt, die sexualisierte Gewalt ermöglichen und aufrechterhalten.&lt;/p&gt;</description>
     </item>
   </channel>
