@@ -74,6 +74,7 @@ theme = "ananke"
     weight = 6
 
 [build]
+  writeStats = true
   [build.buildStats]
     enable = true
   [[build.cachebusters]]
