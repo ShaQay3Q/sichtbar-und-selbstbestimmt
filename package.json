@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "dev": "hugo server -D",
+    "lint:css": "stylelint \"assets/css/**/*.css\""
+  },
+  "name": "sichtbar-und-selbstbestimmt",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.2.4",
+    "stylelint": "^17.9.1",
+    "stylelint-config-standard": "^40.0.0",
+    "stylelint-config-tailwindcss": "^1.0.1",
+    "tailwindcss": "^4.2.4"
+  }
+}
