@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700;800&family=Source+Sans+3:wght@400;600;700&display=swap");
+@layer components {
 
 *, *::before, *::after {
   box-sizing: border-box;
@@ -839,4 +839,6 @@ section {
   .podcast-card {
     padding: 30px 24px;
   }
+}
+
 }

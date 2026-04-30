@@ -23,7 +23,9 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="{{ .Title }}">
     <meta name="twitter:description" content="{{ .Description | default .Site.Params.description }}">
-    <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
+    {{ with (templates.Defer (dict "key" "global")) }}
+      {{ partial "css.html" . }}
+    {{ end }}
   </head>
   <body class="sise-home">
     <header class="site-header">
