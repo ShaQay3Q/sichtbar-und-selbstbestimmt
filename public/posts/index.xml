@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Aktuelles on Sichtbar &amp; Selbstbestimmt</title>
-    <link>https://sichtbarundselbstbestimmt.org/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Aktuelles on Sichtbar &amp; Selbstbestimmt</description>
     <generator>Hugo</generator>
     <language>de</language>
     <lastBuildDate>Sun, 12 Apr 2026 13:43:00 +0200</lastBuildDate>
-    <atom:link href="https://sichtbarundselbstbestimmt.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>New Workshop</title>
-      <link>https://sichtbarundselbstbestimmt.org/posts/2026-04-12-new-workshop/</link>
+      <link>http://localhost:1313/posts/2026-04-12-new-workshop/</link>
       <pubDate>Sun, 12 Apr 2026 13:43:00 +0200</pubDate>
-      <guid>https://sichtbarundselbstbestimmt.org/posts/2026-04-12-new-workshop/</guid>
+      <guid>http://localhost:1313/posts/2026-04-12-new-workshop/</guid>
       <description>&lt;p&gt;This is the new workshop!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Workshop in Dresden: Sexualisierte Gewalt thematisieren</title>
-      <link>https://sichtbarundselbstbestimmt.org/posts/workshop-dresden-2024/</link>
+      <link>http://localhost:1313/posts/workshop-dresden-2024/</link>
       <pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://sichtbarundselbstbestimmt.org/posts/workshop-dresden-2024/</guid>
-      <description>&lt;p&gt;Workshop zu solidarischem Umgang und Verantwortungsübernahme über Einzelfälle hinaus.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Termin:&lt;/strong&gt; 18.10. (10-18h) &amp;amp; 19.10. (10-17h)&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Ort:&lt;/strong&gt; Dresden, genauer Ort nach Anmeldung&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Teilnahmebeitrag:&lt;/strong&gt; 0-100 € (Solidarkonzept)&lt;/p&gt;&#xA;&lt;p&gt;Der Workshop findet in deutscher Lautsprache statt, um Mittagsverpflegung&#xA;(vegan) und Pausensnacks wird sich gekümmert.&lt;/p&gt;&#xA;&lt;p&gt;Weitere Infos zu unseren Workshops findet ihr &lt;a href=&#34;https://sichtbarundselbstbestimmt.org/workshops&#34;&gt;hier&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Anmeldung und Fragen: &lt;a href=&#34;mailto:ws-sise@riseup.net&#34;&gt;ws-sise@riseup.net&lt;/a&gt;&#xA;(Bitte mit Datum und Ort des Workshops im Betreff!)&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/workshop-dresden-2024/</guid>
+      <description>&lt;p&gt;Workshop zu solidarischem Umgang und Verantwortungsübernahme über Einzelfälle hinaus.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Termin:&lt;/strong&gt; 18.10. (10-18h) &amp;amp; 19.10. (10-17h)&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Ort:&lt;/strong&gt; Dresden, genauer Ort nach Anmeldung&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Teilnahmebeitrag:&lt;/strong&gt; 0-100 € (Solidarkonzept)&lt;/p&gt;&#xA;&lt;p&gt;Der Workshop findet in deutscher Lautsprache statt, um Mittagsverpflegung&#xA;(vegan) und Pausensnacks wird sich gekümmert.&lt;/p&gt;&#xA;&lt;p&gt;Weitere Infos zu unseren Workshops findet ihr &lt;a href=&#34;http://localhost:1313/workshops&#34;&gt;hier&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Anmeldung und Fragen: &lt;a href=&#34;mailto:ws-sise@riseup.net&#34;&gt;ws-sise@riseup.net&lt;/a&gt;&#xA;(Bitte mit Datum und Ort des Workshops im Betreff!)&lt;/p&gt;</description>
     </item>
     <item>
       <title>Workshop in Berlin: Sexualisierte Gewalt thematisieren</title>
-      <link>https://sichtbarundselbstbestimmt.org/posts/workshop-berlin-2023/</link>
+      <link>http://localhost:1313/posts/workshop-berlin-2023/</link>
       <pubDate>Sat, 02 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://sichtbarundselbstbestimmt.org/posts/workshop-berlin-2023/</guid>
-      <description>&lt;p&gt;Workshop zu solidarischem Umgang und Verantwortungsübernahme über Einzelfälle hinaus.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Termin:&lt;/strong&gt; 02. &amp;amp; 03. Dezember 2023&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Ort:&lt;/strong&gt; Berlin&lt;/p&gt;&#xA;&lt;p&gt;Der Workshop richtet sich an Personen, die nicht direkt von sexualisierter&#xA;Gewalt betroffen sind.&lt;/p&gt;&#xA;&lt;p&gt;Weitere Infos zu unseren Workshops findet ihr &lt;a href=&#34;https://sichtbarundselbstbestimmt.org/workshops&#34;&gt;hier&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Anmeldung und Fragen: &lt;a href=&#34;mailto:ws-sise@riseup.net&#34;&gt;ws-sise@riseup.net&lt;/a&gt;&#xA;(Bitte mit Datum des Workshops im Betreff!)&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/workshop-berlin-2023/</guid>
+      <description>&lt;p&gt;Workshop zu solidarischem Umgang und Verantwortungsübernahme über Einzelfälle hinaus.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Termin:&lt;/strong&gt; 02. &amp;amp; 03. Dezember 2023&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Ort:&lt;/strong&gt; Berlin&lt;/p&gt;&#xA;&lt;p&gt;Der Workshop richtet sich an Personen, die nicht direkt von sexualisierter&#xA;Gewalt betroffen sind.&lt;/p&gt;&#xA;&lt;p&gt;Weitere Infos zu unseren Workshops findet ihr &lt;a href=&#34;http://localhost:1313/workshops&#34;&gt;hier&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Anmeldung und Fragen: &lt;a href=&#34;mailto:ws-sise@riseup.net&#34;&gt;ws-sise@riseup.net&lt;/a&gt;&#xA;(Bitte mit Datum des Workshops im Betreff!)&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
