@@ -1,93 +1,78 @@
-baseURL = "https://sichtbarundselbstbestimmt.org/"
-locale = "de"
-defaultContentLanguage = "de"
-title = "Sichtbar & Selbstbestimmt"
-theme = "ananke"
-
-[permalinks]
-  pages = "/:slug/"
-  projects = "/:slug/"
-  podcasts = "/podcasts/:slug/"
-
-[params]
-  description = "Kollektive Auseinandersetzung mit sexualisierter Gewalt"
-  ShowReadingTime = false
-  ShowShareButtons = false
-  ShowPostNavLinks = true
-  mainSections = ["posts"]
-
 [menu]
-
-  # [[menu.main]]
-  #   name = "Aktuelles"
-  #   url = "/"
-  #   weight = 1
-
   [[menu.main]]
-    name = "Wer wir sind"
-    url = "/"
+    name = "Über uns"
+    url = "/ueber-uns/"
     weight = 1
 
-    [[menu.main]]
-    # name = "Inhalte & Beiträge"
+  [[menu.main]]
     name = "Aktuelles"
     url = "/posts/"
     weight = 2
 
   [[menu.main]]
-    name = "Was wir machen"
+    name = "Materialien"
     weight = 3
     [menu.main.params]
       hasChildren = true
 
   [[menu.main]]
-    name = "Podcasts"
-    url = "/podcasts/"
-    parent = "Was wir machen"
+    name = "Inhalte & Beiträge"
+    url = "/inhalte/"
+    parent = "Materialien"
     weight = 1
+
+  [[menu.main]]
+    name = "Zine"
+    url = "/zine/"
+    parent = "Materialien"
+    weight = 2
+
+  [[menu.main]]
+    name = "Collagen"
+    url = "/collagen/"
+    parent = "Materialien"
+    weight = 3
+
+  [[menu.main]]
+    name = "Gruppenneugründung"
+    url = "/gruppenneugruendung/"
+    parent = "Materialien"
+    weight = 4
+
+  [[menu.main]]
+    name = "Workshops & Veranstaltungen"
+    weight = 4
+    [menu.main.params]
+      hasChildren = true
 
   [[menu.main]]
     name = "Workshops"
     url = "/workshops/"
-    parent = "Was wir machen"
-    weight = 2
+    parent = "Workshops & Veranstaltungen"
+    weight = 1
 
   [[menu.main]]
     name = "Vorträge"
     url = "/vortraege/"
-    parent = "Was wir machen"
-    weight = 3
+    parent = "Workshops & Veranstaltungen"
+    weight = 2
 
   [[menu.main]]
-    name = "Links"
-    url = "/links/"
-    weight = 4
+    name = "Podcast"
+    url = "/podcasts/"
+    weight = 5
 
   [[menu.main]]
     name = "Galerie"
     url = "/gallery/"
-    weight = 5
-    
+    weight = 6
+
+  [[menu.main]]
+    name = "Links"
+    url = "/links/"
+    weight = 7
+
   [[menu.main]]
     name = "Kontakt"
     url = "/kontakt/"
-    weight = 6
-
-[build]
-  writeStats = true
-  [build.buildStats]
-    enable = true
-  [[build.cachebusters]]
-    source = 'assets/notwatching/hugo_stats\.json'
-    target = 'css'
-  [[build.cachebusters]]
-    source = '(postcss|tailwind)\.config\.js'
-    target = 'css'
-[module]
-  [[module.mounts]]
-    source = 'assets'
-    target = 'assets'
-  [[module.mounts]]
-    disableWatch = true
-    source = 'hugo_stats.json'
-    target = 'assets/notwatching/hugo_stats.json'
+    weight = 8
