@@ -1,4 +1,0 @@
----
-title: "Zine"
-draft: false
----
