@@ -1,4 +1,0 @@
----
-title: "Collagen"
-draft: false
----
