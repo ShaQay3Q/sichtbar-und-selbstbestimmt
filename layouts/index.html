@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="{{ site.Language.Lang | default "de" }}">
   <head>
     <meta charset="utf-8">
@@ -147,4 +147,21 @@
       </nav>
     </footer>
   </body>
-</html>
+</html> -->
+
+
+{{ define "main" }}
+
+{{ partial "hero.html" . }}
+
+{{ partial "intro.html" . }}
+
+{{ partial "featured-topics.html" . }}
+
+{{ partial "latest-posts.html" . }}
+
+{{ partial "latest-podcasts.html" . }}
+
+{{ partial "latest-workshops.html" . }}
+
+{{ end }}

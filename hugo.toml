@@ -1,78 +1,69 @@
-[menu]
-  [[menu.main]]
-    name = "Über uns"
-    url = "/ueber-uns/"
-    weight = 1
+[[menus.main]]
+name = "Homepage"
+url = "/"
+weight = 10
 
-  [[menu.main]]
-    name = "Aktuelles"
-    url = "/posts/"
-    weight = 2
+[[menus.main]]
+name = "Über uns"
+url = "/ueber-uns/"
+weight = 20
 
-  [[menu.main]]
-    name = "Materialien"
-    weight = 3
-    [menu.main.params]
-      hasChildren = true
+[[menus.main]]
+name = "Kontakt"
+parent = "Über uns"
+url = "/ueber-uns/kontakt/"
+weight = 21
 
-  [[menu.main]]
-    name = "Inhalte & Beiträge"
-    url = "/inhalte/"
-    parent = "Materialien"
-    weight = 1
+[[menus.main]]
+name = "Aktuelles"
+url = "/aktuelles/"
+weight = 30
 
-  [[menu.main]]
-    name = "Zine"
-    url = "/zine/"
-    parent = "Materialien"
-    weight = 2
+# [[menus.main]]
+# name = "Was wir machen"
+# url = "/was-wir-machen/"
+# weight = 40
 
-  [[menu.main]]
-    name = "Collagen"
-    url = "/collagen/"
-    parent = "Materialien"
-    weight = 3
+[[menus.main]]
+name = "Workshops & Veranstaltungen"
+url = "/workshops/"
+weight = 40
 
-  [[menu.main]]
-    name = "Gruppenneugründung"
-    url = "/gruppenneugruendung/"
-    parent = "Materialien"
-    weight = 4
+[[menus.main]]
+name = "Podcasts"
+url = "/podcasts/"
+weight = 50
 
-  [[menu.main]]
-    name = "Workshops & Veranstaltungen"
-    weight = 4
-    [menu.main.params]
-      hasChildren = true
+[[menus.main]]
+name = "Materialien"
+url = "/materialien/"
+weight = 60
 
-  [[menu.main]]
-    name = "Workshops"
-    url = "/workshops/"
-    parent = "Workshops & Veranstaltungen"
-    weight = 1
+[[menus.main]]
+name = "Inhalte & Beiträge"
+parent = "Materialien"
+url = "/materialien/inhalte-beitraege/"
+weight = 61
 
-  [[menu.main]]
-    name = "Vorträge"
-    url = "/vortraege/"
-    parent = "Workshops & Veranstaltungen"
-    weight = 2
+[[menus.main]]
+name = "Zine"
+parent = "Materialien"
+url = "/materialien/zine/"
+weight = 62
 
-  [[menu.main]]
-    name = "Podcast"
-    url = "/podcasts/"
-    weight = 5
+[[menus.main]]
+name = "Collagen"
+parent = "Materialien"
+url = "/materialien/collagen/"
+weight = 63
 
-  [[menu.main]]
-    name = "Galerie"
-    url = "/gallery/"
-    weight = 6
+[[menus.main]]
+name = "Gruppenneugründung"
+parent = "Materialien"
+url = "/materialien/gruppenneugruendung/"
+weight = 64
 
-  [[menu.main]]
-    name = "Links"
-    url = "/links/"
-    weight = 7
-
-  [[menu.main]]
-    name = "Kontakt"
-    url = "/kontakt/"
-    weight = 8
+[[menus.main]]
+name = "Links"
+url = "/links/"
+weight = 70
