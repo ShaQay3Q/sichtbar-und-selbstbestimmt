@@ -1,4 +1,0 @@
----
-title: "Gruppenneugründung"
-draft: false
----
