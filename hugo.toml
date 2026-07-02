@@ -4,20 +4,43 @@ url = "/"
 weight = 10
 
 [[menus.main]]
-name = "Über uns"
-url = "/ueber-uns/"
+name = "Aktuelles"
+url = "/aktuelles/"
 weight = 20
 
 [[menus.main]]
-name = "Kontakt"
-parent = "Über uns"
-url = "/ueber-uns/kontakt/"
-weight = 21
+name = "Workshops & Veranstaltungen"
+url = "/workshops/"
+weight = 30
 
 [[menus.main]]
-name = "Aktuelles"
-url = "/aktuelles/"
-weight = 30
+name = "Materialien"
+url = "/materialien/"
+weight = 40
+
+[[menus.main]]
+name = "Inhalte & Beiträge"
+parent = "Materialien"
+url = "/materialien/inhalte-beitraege/"
+weight = 41
+
+[[menus.main]]
+name = "Zine"
+parent = "Materialien"
+url = "/materialien/zine/"
+weight = 42
+
+[[menus.main]]
+name = "Collagen"
+parent = "Materialien"
+url = "/materialien/collagen/"
+weight = 43
+
+[[menus.main]]
+name = "Gruppenneugründung"
+parent = "Materialien"
+url = "/materialien/gruppenneugruendung/"
+weight = 44
 
 # [[menus.main]]
 # name = "Was wir machen"
@@ -25,45 +48,22 @@ weight = 30
 # weight = 40
 
 [[menus.main]]
-name = "Workshops & Veranstaltungen"
-url = "/workshops/"
-weight = 40
-
-[[menus.main]]
 name = "Podcasts"
 url = "/podcasts/"
 weight = 50
 
 [[menus.main]]
-name = "Materialien"
-url = "/materialien/"
+name = "Links"
+url = "/links/"
 weight = 60
 
 [[menus.main]]
-name = "Inhalte & Beiträge"
-parent = "Materialien"
-url = "/materialien/inhalte-beitraege/"
-weight = 61
-
-[[menus.main]]
-name = "Zine"
-parent = "Materialien"
-url = "/materialien/zine/"
-weight = 62
-
-[[menus.main]]
-name = "Collagen"
-parent = "Materialien"
-url = "/materialien/collagen/"
-weight = 63
-
-[[menus.main]]
-name = "Gruppenneugründung"
-parent = "Materialien"
-url = "/materialien/gruppenneugruendung/"
-weight = 64
-
-[[menus.main]]
-name = "Links"
-url = "/links/"
+name = "Über uns"
+url = "/ueber-uns/"
 weight = 70
+
+[[menus.main]]
+name = "Kontakt"
+parent = "Über uns"
+url = "/ueber-uns/kontakt/"
+weight = 71
