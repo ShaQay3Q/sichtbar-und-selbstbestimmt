@@ -1,0 +1,20 @@
+<section class="featured-topics">
+
+    <h2>Highlights</h2>
+
+    {{ range first 3 (where site.RegularPages "Params.featured" true) }}
+
+    <article>
+        <h3>
+            <a href="{{ .RelPermalink }}">
+                {{ .Title }}
+            </a>
+        </h3>
+
+        <p>{{ .Summary }}</p>
+
+    </article>
+
+    {{ end }}
+
+</section>

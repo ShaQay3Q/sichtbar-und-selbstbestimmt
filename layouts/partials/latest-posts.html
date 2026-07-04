@@ -1,0 +1,17 @@
+<section>
+
+    <h2>Aktuelles</h2>
+
+    {{ range first 1 (where site.RegularPages "Section" "aktuelles") }}
+
+    <h3>
+        <a href="{{ .RelPermalink }}">
+            {{ .Title }}
+        </a>
+    </h3>
+
+    <p>{{ .Summary }}</p>
+
+    {{ end }}
+
+</section>

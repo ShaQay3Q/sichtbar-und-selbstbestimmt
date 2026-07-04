@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+<h1>{{ .Title }}</h1>
+
+<div class="gallery">
+
+    {{ range .Pages }}
+
+    <a href="{{ .RelPermalink }}">
+
+        {{ with .Resources.GetMatch "image.jpg" }}
+        <img src="{{ .RelPermalink }}" alt="">
+        {{ end }}
+
+        <h3>{{ .Title }}</h3>
+
+    </a>
+
+    {{ end }}
+
+</div>
+
+{{ end }}

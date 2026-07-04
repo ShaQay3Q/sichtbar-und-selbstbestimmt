@@ -2,6 +2,7 @@
 title: "Workshop in Dresden: Sexualisierte Gewalt thematisieren"
 date: 2024-10-18
 draft: false
+featured: true
 ---
 
 Workshop zu solidarischem Umgang und Verantwortungsübernahme über Einzelfälle hinaus.

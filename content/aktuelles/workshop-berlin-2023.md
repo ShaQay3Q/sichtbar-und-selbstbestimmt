@@ -4,6 +4,7 @@ date: 2023-12-02
 draft: false
 images: []
 tags: []
+featured: true
 ---
 
 Workshop zu solidarischem Umgang und Verantwortungsübernahme über Einzelfälle hinaus.
