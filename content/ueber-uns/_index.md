@@ -1,12 +1,10 @@
 ---
 title: "Wer Wir Sind"
+summary: "sichtbar & selbstbestimmt versteht sich als politische Gruppe von Betroffenen sexualisierter Gewalt, die sich kollektiv mit den eigenen Erfahrungen auseinandersetzt. Wir nehmen dabei gezielt die gesellschaftlichen Strukturen in den Blick, die diese Gewalt ermöglichen und aufrechterhalten."
 date: "2026-02-24T21:43:22+01:00"
 draft: false
 ---
 
-sichtbar & selbstbestimmt ist eine selbstorganisierte Gruppe von Betroffenen
-sexualisierter Gewalt. Wir haben uns im Herbst 2019 in Leipzig gegründet.
+sichtbar & selbstbestimmt ist eine selbstorganisierte Gruppe von Betroffenen sexualisierter Gewalt. Wir haben uns im Herbst 2019 in Leipzig gegründet.
 
-Wir verstehen uns als politische Gruppe, die sich kollektiv mit den eigenen
-Betroffenheitserfahrungen auseinandersetzt und dabei gesellschaftliche Strukturen
-in den Blick nimmt, die sexualisierte Gewalt ermöglichen und aufrechterhalten.
+Wir verstehen uns als politische Gruppe, die sich kollektiv mit den eigenen Betroffenheitserfahrungen auseinandersetzt und dabei gesellschaftliche Strukturen in den Blick nimmt, die sexualisierte Gewalt ermöglichen und aufrechterhalten.

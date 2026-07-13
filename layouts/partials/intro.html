@@ -1,0 +1,15 @@
+{{ with site.GetPage "/ueber-uns" }}
+
+<section class="intro">
+
+    <h2>{{ .Title }}</h2>
+
+    <p>{{ .Summary }}</p>
+
+    <a class="btn-primary" href="{{ .RelPermalink }}">
+        Mehr erfahren
+    </a>
+
+</section>
+
+{{ end }}
