@@ -9,7 +9,8 @@
     <div class="hero-sub">
         <div class="hero-tagline">
             <p class="hero-text">{{ .Site.Params.description }}</p>
-            <a class="btn-primary" href="#aktuelles">Mehr erfahren</a>
+
+            {{ partial "intro.html" . }}
         </div>
     </div>
 </section>
