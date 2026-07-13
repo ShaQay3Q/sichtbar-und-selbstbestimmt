@@ -7,6 +7,18 @@
 
 ---
 
+## Project Principle
+
+Information should exist in exactly one place.
+
+Layouts may display information.
+
+Layouts should never duplicate information.
+
+Content editors should edit only files inside `content/`.
+
+---
+
 # Rendering Flow
 
 Homepage (/)
