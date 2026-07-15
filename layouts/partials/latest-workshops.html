@@ -1,0 +1,21 @@
+<section class="latest-three-posts">
+
+    <h2>Workshops</h2>
+
+    {{ range first 3 (where site.RegularPages "Section" "workshops") }}
+
+    <article class="article">
+
+        <h3>{{ .Title }}</h3>
+
+        <h4>{{ .Date.Format "2. January, 2006" }}</h4>
+
+        <p>{{ .Summary }}</p>
+
+        <a class="btn-primary" href="{{ .RelPermalink }}">Mehr erfahren</a>
+
+    </article>
+
+    {{ end }}
+
+</section>
