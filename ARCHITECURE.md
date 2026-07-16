@@ -343,3 +343,27 @@ Phase 5
 
 Phase 6
 ☐ Polish CSS
+
+## Front Matter on Regular and Section Pages
+
+e.i:
+
+Regular workshop
+
+title
+date
+summary
+featured
+thumbnail
+tags
+draft
+
+---
+
+Workshop section
+
+title
+description
+hero_image
+intro
+draft

@@ -1,0 +1,22 @@
+<section class="homepage-podcasts">
+
+    <h2>Recent Podcasts</h2>
+
+    {{ range first 3 (where site.RegularPages "Section" "podcasts") }}
+
+    <article class="article">
+
+        <h3>{{ .Title }}</h3>
+
+        <time datetime="{{ .Date.Format " 2006-01-02" }}">{{ .Date.Format "02.01.200" }}</time>
+
+
+        <p>{{ .Summary }}</p>
+
+        <!-- <a class="btn-primary" href="{{ .RelPermalink }}">Mehr erfahren</a> -->
+
+    </article>
+
+    {{ end }}
+
+</section>

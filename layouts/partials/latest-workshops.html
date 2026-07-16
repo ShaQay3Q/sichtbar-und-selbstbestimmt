@@ -1,6 +1,6 @@
-<section class="latest-three-posts">
+<section class="homepage-workshops">
 
-    <h2>Workshops</h2>
+    <h2>Unsere Workshops</h2>
 
     {{ range first 3 (where site.RegularPages "Section" "workshops") }}
 
@@ -8,7 +8,7 @@
 
         <h3>{{ .Title }}</h3>
 
-        <time>{{ .Date.Format "02.01.2006" }}</time>
+        <time datetime="{{ .Date.Format " 2006-01-02" }}">{{ .Date.Format "02.01.2006" }}</time>
 
         <p>{{ .Summary }}</p>
 
